@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <exclude name="RegressionTest"></exclude>
+   <exclude name="SanityTest"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.testng.com.MultipleTests"></class>
+      <class name="com.testng.com.ActionsEx2"></class>
+      <class name="com.testng.com.ActionsEx3"></class>
+      <class name="com.testng.com.ActionsEx4"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
