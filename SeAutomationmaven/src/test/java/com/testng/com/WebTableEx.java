@@ -41,7 +41,7 @@ public class WebTableEx {
 			}
 		}
 		driver.quit();
-	//	Assert.fail();
+		Assert.fail();
 	}
 
 }
